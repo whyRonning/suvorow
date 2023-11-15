@@ -1,0 +1,570 @@
+:root {
+    --color-main: #8d0a0c;
+    --color-second: #d8b36b;
+    --color-info: #8d0a0c;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-main {
+    color: var(--color-main);
+}
+
+.color-second {
+    color: var(--color-second);
+}
+
+.background-main {
+    background-color: var(--color-main);
+}
+
+.background-second {
+    background-color: var(--color-second);
+}
+
+.background-info {
+    background-color: var(--color-info);
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.font-body-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.font-about-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.font-title-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.adv-icon-block .font-title-1 {
+    font-weight: 500;
+}
+
+.font-title-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-second);
+    font-size: 25px;
+    line-height: 30px;
+    padding: 40px;
+}
+
+.font-title-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.font-button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+    justify-items: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+    justify-items: end;
+}
+
+.gap-4 {
+    gap: 4px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.padding-h-1 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.padding-h-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.padding-h-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.padding-h-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-h-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-h-10 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.padding-1 {
+    padding: 4px;
+}
+
+.padding-2 {
+    padding: 8px;
+}
+
+.padding-3 {
+    padding: 12px;
+}
+
+.padding-4 {
+    padding: 16px;
+}
+
+.padding-5 {
+    padding: 20px;
+}
+
+.padding-left-1 {
+    padding-left: 4px;
+}
+
+.padding-left-2 {
+    padding-left: 8px;
+}
+
+.padding-left-3 {
+    padding-left: 12px;
+}
+
+.padding-left-4 {
+    padding-left: 16px;
+}
+
+.padding-left-5 {
+    padding-left: 20px;
+}
+
+.padding-right-1 {
+    padding-right: 4px;
+}
+
+.padding-right-2 {
+    padding-right: 8px;
+}
+
+.padding-right-3 {
+    padding-right: 12px;
+}
+
+.padding-right-4 {
+    padding-right: 16px;
+}
+
+.padding-right-5 {
+    padding-right: 20px;
+}
+
+.padding-top-1 {
+    padding-top: 4px;
+}
+
+.padding-top-2 {
+    padding-top: 8px;
+}
+
+.padding-top-3 {
+    padding-top: 12px;
+}
+
+.padding-top-4 {
+    padding-top: 16px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 20px;
+}
+
+.padding-bottom-1 {
+    padding-bottom: 4px;
+}
+
+.padding-bottom-2 {
+    padding-bottom: 8px;
+}
+
+.padding-bottom-3 {
+    padding-bottom: 12px;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 16px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 20px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1 1;
+}
+
+.flex-2 {
+    flex: 2 1;
+}
+
+.flex-3 {
+    flex: 3 1;
+}
+
+.button-1 {
+    background-color: var(--color-second);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all ease 0.3s;
+}
+
+.button-1:hover {
+    background: none;
+    border: 1px solid var(--color-main);;
+}
+
+.button-2 {
+    background-color: var(--color-second);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid var(--color-second);;
+    transition: all ease 0.3s;
+}
+
+.button-2:hover {
+    background: none;
+    color: var(--color-second);;
+}
+
+@media screen and (max-width: 900px) {
+    .padding-h-10 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .preheader-icon-block .font-body-3 {
+        line-height: 7px;
+    }
+
+    .gallery {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .button-2 {
+        width: 200px;
+    }
+
+    .font-body-3 {
+        font-size: 11px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 13px;
+    }
+
+    .main-block .font-title-1 {
+        font-size: 30px;
+    }
+
+    .fa-1x {
+        font-size: 12px;
+    }
+
+    .fa-xl {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .fa-1x {
+        font-size: 12px;
+    }
+
+    .fa-xl {
+        font-size: 12px;
+    }
+
+    .gallery {
+        padding-right: 0;
+        padding-left: 0;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .font-body-3 {
+        font-size: 9px;
+    }
+
+    .font-about-1 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+
+    .font-title-3 {
+        font-size: 22px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 12px;
+    }
+
+    .main-block .font-title-1 {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 255px) {
+    .adv-icon-block .font-body-3 {
+        font-size: 11px;
+    }
+
+    .main-block .font-title-1 {
+        font-size: 21px;
+    }
+
+    .gallery {
+        padding-right: 0;
+        padding-left: 0;
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
+
+    .font-body-3 {
+        font-size: 8px;
+    }
+
+    .font-about-1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .font-title-3 {
+        font-size: 20px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 236px) {
+    .adv-icon-block .font-body-3 {
+        font-size: 9px;
+    }
+
+    .main-block .font-title-1 {
+        font-size: 15px;
+    }
+
+    .font-body-3 {
+        font-size: 7px;
+    }
+
+    .font-about-1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .font-title-3 {
+        font-size: 20px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 215px) {
+    .preheader {
+        display: none;
+    }
+
+    .button-2 {
+        width: fit-content;
+    }
+
+    .adv-icon-block .font-body-3 {
+        font-size: 9px;
+    }
+
+    .font-body-3 {
+        font-size: 8px;
+    }
+
+    .font-about-1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .font-title-3 {
+        font-size: 20px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .preheader {
+        display: none;
+    }
+
+    .adv-icon-block .font-body-3 {
+        font-size: 8px;
+    }
+
+    .font-body-3 {
+        font-size: 8px;
+    }
+
+    .font-about-1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .font-title-3 {
+        font-size: 20px;
+    }
+
+    .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+        padding: 16px 0;
+        font-size: 8px;
+    }
+}

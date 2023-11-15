@@ -1,0 +1,53 @@
+.menu-paragraph {
+    transition-duration: .1s;
+}
+
+.menu-paragraph a {
+    color: white !important;
+}
+
+.menu-paragraph::after {
+    position: absolute;
+    opacity: 0;
+    color: var(--color-main);
+    content: "]";
+    transition: all ease 0.4s;
+}
+
+.menu-paragraph::before {
+    position: absolute;
+    opacity: 0;
+    color: var(--color-main);
+    content: "[";
+    transform: translateX(-5px);
+    transition: all ease 0.4s;
+}
+
+.menu-paragraph:hover::after {
+    opacity: 1;
+    position: absolute;
+    transform: translateX(15px);
+}
+
+.menu-paragraph:hover::before {
+    opacity: 1;
+    position: absolute;
+    transform: translateX(-20px);
+}
+
+
+.ant-anchor {
+    padding-inline-start: 0 !important;
+}
+
+.ant-anchor-link-title {
+    display: inline !important;
+}
+
+.ant-anchor-ink-ball-visible {
+    display: none !important;
+}
+
+.ant-anchor-link-active > .ant-anchor-link-title {
+    color: var(--color-main) !important;
+}
