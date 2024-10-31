@@ -21,7 +21,7 @@ import gallery5 from "../../../Images/gallery/5.jpg";
 import gallery6 from "../../../Images/gallery/6.jpg";
 import gallery7 from "../../../Images/gallery/7.jpg";
 import gallery8 from "../../../Images/gallery/8.jpg";
-
+import video from "../../../video/video_2024-10-31_20-42-03.mp4";
 const Main = React.memo((props) => {
   return (
     <div>
@@ -148,26 +148,27 @@ const Main = React.memo((props) => {
         />
       </section>
       <section
-        className="column align-center gap-24"
-        style={{ paddingTop: "70px" }}
-        id="gallery"
+          className="column align-center gap-24"
+          style={{paddingTop: "70px"}}
+          id="gallery"
       >
         <h1 className="font-title-3">Галерея</h1>
         <Image.PreviewGroup>
           <div className="justify-content-center align-center gap-16 gallery">
-            <Image src={gallery1} />
-            <Image src={gallery3} />
-            <Image src={gallery5} />
-            <Image src={gallery2} />
-            <Image src={gallery4} />
-            <Image src={gallery6} />
-            <Image src={gallery7} />
-            <Image src={gallery8} />
+            <Image src={gallery1}/>
+            <Image src={gallery3}/>
+            <Image src={gallery5}/>
+            <Image src={gallery2}/>
+            <Image src={gallery4}/>
+            <Image src={gallery6}/>
+            <Image src={gallery7}/>
+            <Image src={gallery8}/>
           </div>
         </Image.PreviewGroup>
+        <video style={{'max-width': '100%'}} controls={true} src={video}></video>
       </section>
       <section
-        className="column align-center gap-24"
+          className="column align-center gap-24"
         style={{ paddingTop: "70px" }}
         id="contacts"
       >

@@ -1,6 +1,6 @@
 import Main from "./main";
-import banket1 from "../../../Images/banket-menu-1.png";
-import banket2 from "../../../Images/banket-menu-2.png";
+import banket1 from "../../../Images/banket-menu-1.jpg";
+import banket2 from "../../../Images/banket-menu-2.jpg";
 import delivery1 from "../../../Images/delivery-menu-1.jpg";
 import delivery2 from "../../../Images/delivery-menu-2.jpg";
 import { Image } from "antd";
