@@ -21,7 +21,7 @@ export const MainContainer = () => {
     },
     {
       key: 2,
-      label: "Меню доставки",
+      label: "Меню караоке",
       children: (
         <Image.PreviewGroup>
           <div className="menu-images align-center">
