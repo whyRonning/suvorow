@@ -22,6 +22,7 @@ import gallery6 from "../../../Images/gallery/6.jpg";
 import gallery7 from "../../../Images/gallery/7.jpg";
 import gallery8 from "../../../Images/gallery/8.jpg";
 import video from "../../../video/video_2024-10-31_20-42-03.mp4";
+import preview from "../../../Images/preview.png";
 const Main = React.memo((props) => {
   return (
     <div>
@@ -165,7 +166,9 @@ const Main = React.memo((props) => {
             <Image src={gallery8}/>
           </div>
         </Image.PreviewGroup>
-        <video style={{'max-width': '100%'}} controls={true} src={video}></video>
+        <div className='column align-center'>
+          <video style={{'max-width': '100%'}} controls={true} src={video} poster={preview}></video>
+        </div>
       </section>
       <section
           className="column align-center gap-24"
